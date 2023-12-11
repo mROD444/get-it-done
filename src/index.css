@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(204, 160, 186, 0.884);
+  font-family: 'Schoolbell', cursive;
+  color:rgb(255, 255, 255);
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  height: 60px;
+  width: 300px;
+  background-color: rgba(112, 55, 98, 0.952);
+  border: 3px solid white;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+li{
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+button{
+  height: 50px;
+  width: 110px;
+  border: 3px solid white;
+  border-radius: 30px;
+  background-color: rgba(112, 55, 98, 0.952);
+  color: white;
+  font-size: 20px;
+}
+
+button:hover{
+  border: 3px solid rgba(112, 55, 98, 0.952);
+  background-color: white;
+  color:rgba(112, 55, 98, 0.952);
+}
+
+ul{
+  list-style: none;
+}
+
+.cat{
+  font-size: 65px;
+  padding: 20px;
+  color: rgb(87, 35, 94);
+}
+
+.quick{
+  font-size: 40px;
+  padding-top: 15px;
+  text-shadow: 3px 4px rgb(124, 64, 119);
+}
+
+h1{
+  font-size: 80px;
+  text-shadow: 4px 8px rgb(124, 64, 119);
+}
+
+input[type='text']::placeholder{
+  font-size: 20px;
+  color:white;
+}
+
+.delete{
+  height: 40px;
+  width: 90px;
+  border: 3px solid white;
+  border-radius: 30px;
+  background-color:rgba(112, 55, 98, 0.952);
+  color: white;
+  font-size: 20px;
+}
+
+
+input[type='text']{
+  font-size: 30px;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 55px;
+  font-size: 20px;
+}
